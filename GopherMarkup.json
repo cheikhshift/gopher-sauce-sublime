@@ -1,0 +1,25 @@
+{
+	"scope": "source.gxml",
+	"completions": [
+		{ "trigger": "main\tfunc main()", "contents": "<main>\n/* GOLANG SCOPE */$1\n</main>"},
+		{"trigger": "deploy\tDeployment target", "contents": "<deploy>webapp|locale</deploy>"},
+		{"trigger": "web\tweb root", "contents": "<web>$0</web>"},
+		{"trigger": "tmpl\ttemplate root", "contents": "<tmpl>$0</tmpl>"},
+		{"trigger": "port\tserver port", "contents": "<port>8080</port>"},
+		{"trigger": "output\tfile to save go source", "contents": "<output>server_out.go</output>"},
+		{"trigger": "key\tSession storage key", "contents": "<key>your-key</key>"},
+		{"trigger": "init\tfunc init()", "contents": "<init>\n/* GOLANG SCOPE */$1\n</init>"},
+		{"trigger": "var\tDeclare variable", "contents": "<var type=\"$1\">$0</var>"},
+		{"trigger": "header\theader code block(structs,objects)", "contents": "<header>\n$0\n</header>"},
+		{"trigger": "struct\tcreate new model", "contents": "<struct name=\"$1\">\n$2 $0\n</struct>"},
+		{"trigger": "object\tcreate new interface", "contents": "<object struct=\"$0\" name=\"$1\">/*Declare your object functions */\n$2</object>"},
+		{"trigger": "methods\tmethod code block (method)", "contents": "<methods>\n$0\n</methods>"},
+		{"trigger": "templates\ttemplate code block(template)", "contents": "<templates>\n$0\n</templates>"},
+		{"trigger": "endpoints\tAPI code block (end)", "contents": "<endpoints>\n$0\n</endpoints>"},
+		{"trigger": "end\tcreate new endpoint", "contents": "<end path=\"$1\" method=\"$2\" type=\"$3\" ></end>"},
+		{"trigger": "template\tlink new .tmpl", "contents": "<template name=\"$0\" tmpl=\"$1\" struct=\"$2\" /> "},
+		{"trigger": "timers\tTimer code block(timer)", "contents": "<timers>\n$0\n</timers>"},
+		{"trigger": "timer\tcreate a new timer.", "contents": "<timer method=\"$0\" interval=\"$1\" unit=\"$2\" name=\"$3\"></timer>"},
+		{"trigger": "import\timport a new package.", "contents": "<import src=\"$0\"/>" }
+	]
+}
