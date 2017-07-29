@@ -1,7 +1,7 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
 name: GopherMarkup
 scopeName: source.gxml
-fileTypes: [gxml,xml]
+fileTypes: [gxml]
 uuid: c148a1ad-57b9-4a9f-87e5-76cdac2610ee
 
 patterns:
